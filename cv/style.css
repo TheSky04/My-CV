@@ -1,0 +1,344 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  overflow-x: hidden;
+  font-weight: 400;
+  line-height: 1.2;
+  font-size: 1.6rem;
+}
+
+.CV {
+  max-width: 100%;
+  height: 100vh;
+  display: flex;
+  gap: 3rem;
+}
+
+.left {
+  color: #101d2c;
+  background-color: #fff;
+  flex: 0 0 20%;
+}
+
+.left__photo-box {
+  width: 15rem;
+  height: 15rem;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+.left__photo {
+  width: 100%;
+  border-radius: 50%;
+  display: block;
+  margin-top: 3rem;
+}
+
+.left__title {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  font-weight: 500;
+}
+
+.left__icon-box {
+  display: flex;
+  gap: 2rem;
+  margin-left: 2rem;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.left__name {
+  font-size: 1.4rem;
+}
+
+.left__interest-text {
+  font-size: 1.2rem;
+}
+
+.linkedin {
+  font-size: 1.3rem;
+}
+
+.left__interests {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.left__interest-box {
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+  gap: 1rem;
+}
+
+.left__languages-box {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+.left__stars {
+  display: flex;
+  align-items: center;
+  gap: 0.1rem;
+}
+.fa-star {
+  font-size: 1.2rem;
+}
+
+.left__experience--box {
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 1.3rem;
+}
+
+.left__experience__description {
+  font-size: 1.4rem;
+}
+
+.left__experience__days {
+  font-size: 1.2rem;
+  color: #9fa5ab;
+}
+
+.left__experience--type {
+  margin-top: -1rem;
+}
+
+.right {
+  background-color: #ffffff;
+  flex: 1;
+  padding: 4rem;
+}
+
+.right__name {
+  font-size: 4rem;
+  letter-spacing: 0.2rem;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  color: #101d2c;
+}
+
+.right__description {
+  width: 100%;
+  color: #555;
+  line-height: 1.5;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #bbb;
+  font-size: 1.1rem;
+  padding-right: 6rem;
+}
+
+.right__title-box {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.right__icon {
+  font-size: 0.5rem;
+}
+.right__title {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #333;
+}
+
+.right__education-box {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.last-education {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #bbb;
+}
+
+.right__education-date {
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.right__education-school {
+  text-transform: uppercase;
+  font-size: 1.1rem;
+}
+
+.right__skills-box {
+  width: 40%;
+  display: grid;
+  grid-template-columns: 1rem 1fr 1fr;
+  align-items: center;
+  justify-items: start;
+  margin-bottom: 1rem;
+}
+
+.right__skills-name {
+  margin-right: auto;
+  margin-left: 1rem;
+}
+
+.right__icon {
+  color: #101d2c;
+  font-size: 1.6rem;
+}
+
+.fa-html5 {
+  color: #e96228;
+}
+
+.fa-css3-alt {
+  color: #006bb4;
+}
+
+.fa-sass {
+  color: #ce7da5;
+}
+
+.fa-js {
+  color: #efd81d;
+  fill: black;
+}
+
+.fa-bootstrap {
+  color: #7410f0;
+}
+
+.fa-database {
+  color: #4087c1;
+}
+
+.fa-c {
+  color: #101d2c;
+}
+
+.fa-globe {
+  color: #4e2acd;
+}
+
+.right__skill-box-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.fa-file-word {
+  color: #2a5594;
+}
+
+.fa-file-powerpoint {
+  color: #cd4f2e;
+}
+
+.fa-file-excel {
+  color: #206f44;
+}
+
+.fa-sketch {
+  color: #e2282e;
+}
+
+.right__link {
+  color: #101d2c;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.project-links {
+  border-top: 1px solid #bbb;
+  padding-top: 1rem;
+}
+
+.small {
+  color: #777;
+  font-size: 0.9rem;
+}
+
+.typescript {
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.csharp {
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.fa-windows {
+  color: #007acc;
+}
+
+.microsoft {
+  font-size: 1.1rem;
+}
+
+/* 1000 px*/
+@media only screen and (max-width: 62.5em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+/* 832 px */
+@media only screen and (max-width: 52em) {
+  html {
+    font-size: 50%;
+  }
+
+  .CV {
+    flex-direction: column;
+  }
+
+  .right__description {
+    width: 90%;
+  }
+
+  .right__skill-box-container {
+    gap: 1rem;
+  }
+
+  .right__skills-box {
+    gap: 0.5rem;
+  }
+
+  .left__interests {
+    grid-template-columns: 1fr;
+  }
+  .left__interest-box {
+    margin-left: 2rem;
+  }
+
+  .small {
+    color: #777;
+    font-size: 1rem;
+  }
+}
